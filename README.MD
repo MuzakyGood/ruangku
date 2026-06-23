@@ -43,7 +43,6 @@ make clean # If you want to clean the output directory.
 ```bash
 mkdir bin
 javac -d bin Ruangku.java program/process/Reservation.java program/process/ReservationException.java program/gui/WindowProgram.java program/gui/util/RoundedBorderInput.java program/gui/util/ImageObject.java program/gui/util/FileLoader.java program/gui/util/EventHandling.java program/gui/util/ButtonImage.java
-
 java -cp bin Ruangku
 
 ```
