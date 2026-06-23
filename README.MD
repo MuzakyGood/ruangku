@@ -35,7 +35,7 @@ mkdir bin
 make debug # If you just want to run it for debugging.
 make release # If you want it to be built into an executable.
 make run # If you have already built your executable, you can run this project without building (but there are no changes).
-$ make clean # If you want to clean the output directory.
+make clean # If you want to clean the output directory.
 ```
 
 - Build with the OpenJDK command (Debugging only).
