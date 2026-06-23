@@ -70,7 +70,7 @@ debug:
 	@javac -d ${OUTPUT_CLASS_DIR} ${MAIN_SRC} ${PRC_SRC} ${GUI_SRC} ${GUI_UTIL_SRC}
 	@echo "[JAVA] Complete build debug project."
 	@echo "[JAVA] Run project."
-	@java -cp ${OUTPUT_CLASS_DIR} MainApp
+	@java -cp ${OUTPUT_CLASS_DIR} ${PROJECT_NAME}
 	@echo "[JAVA] Complete run debug project."
 
 clean:

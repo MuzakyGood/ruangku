@@ -25,7 +25,7 @@ If you choose to just download it without having to understand the complicated b
 Copy this project to your local storage.
 
 ```bash
-git clone https://github.com/MuzakyGood/ruangku
+git clone https://github.com/MuzakyGood/ruangku.git
 ```
 You’re free to choose to build this app in the way mentioned (Both of these methods are built using the command line):
 - Build this app with a MakeFile.
@@ -46,6 +46,12 @@ javac -d bin Ruangku.java program/process/Reservation.java program/process/Reser
 java -cp bin Ruangku
 
 ```
+
+---
+
+## 📷 Review Application 📷
+
+<img src="img/Example/Basic_Use.png" width="450" high="200"></img>
 
 ---
 
