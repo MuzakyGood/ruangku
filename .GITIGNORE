@@ -1,0 +1,6 @@
+# Java class and jar binary file
+*.class
+*.jar
+
+# Binary directory output
+bin
