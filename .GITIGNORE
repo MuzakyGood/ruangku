@@ -4,3 +4,6 @@
 
 # Binary directory output
 bin
+
+# Unused assets content
+img/unused
