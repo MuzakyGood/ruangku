@@ -62,7 +62,7 @@ public class Reservation
                 Duration totalDuration = Duration.between(start, end);
 
                 if (totalDuration.isNegative())
-                    totalDuration = totalDuration.plusDays(1);
+                    throw new ReservationException("Reservasi tidak boleh melewati tengah malam hingga besok!");
 
                 jamReservasi = (int)totalDuration.toHours();
 
@@ -106,7 +106,10 @@ public class Reservation
             Duration totalDuration = Duration.between(start, end);
 
             if (totalDuration.isNegative())
-                totalDuration = totalDuration.plusDays(1);
+            {
+                totalBayar = 0.0f;
+                return;
+            }
 
             jamReservasi = (int)totalDuration.toHours();
 

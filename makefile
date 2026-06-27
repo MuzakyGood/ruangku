@@ -11,7 +11,7 @@ OUTPUT_EXE_DIR = bin
 
 # --- METADATA APPLICATION ---
 
-APP_VERSION = 1.0.0.1
+APP_VERSION = 1.0.1.1
 APP_VENDOR = Zachwere Technology
 APP_COPYRIGHT = Copyright (C) 2026 Zachwere Technology.
 APP_DESCRIPTION = Interactive Room Reservation desktop application.
