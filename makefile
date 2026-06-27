@@ -11,10 +11,10 @@ OUTPUT_EXE_DIR = bin
 
 # --- METADATA APPLICATION ---
 
-APP_VERSION = 1.0.0.0
+APP_VERSION = 1.0.0.1
 APP_VENDOR = Zachwere Technology
 APP_COPYRIGHT = Copyright (C) 2026 Zachwere Technology.
-APP_DESCRIPTION = Interactive Room Management and Reservation desktop application.
+APP_DESCRIPTION = Interactive Room Reservation desktop application.
 
 ifeq ($(OS),Windows_NT)
     RUN_EXE_CMD = ${OUTPUT_EXE_DIR}/${PROJECT_NAME}/${PROJECT_NAME}.exe

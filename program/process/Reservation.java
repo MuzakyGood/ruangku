@@ -61,6 +61,9 @@ public class Reservation
                 LocalTime end = LocalTime.parse(timeReservTo);
                 Duration totalDuration = Duration.between(start, end);
 
+                if (totalDuration.isNegative())
+                    totalDuration = totalDuration.plusDays(1);
+
                 jamReservasi = (int)totalDuration.toHours();
 
                 totalBayar = hargaSatuJamRuangan[roomIndex - 1] * jamReservasi;
@@ -101,6 +104,9 @@ public class Reservation
             LocalTime start = LocalTime.parse(timeReservFrom);
             LocalTime end = LocalTime.parse(timeReservTo);
             Duration totalDuration = Duration.between(start, end);
+
+            if (totalDuration.isNegative())
+                totalDuration = totalDuration.plusDays(1);
 
             jamReservasi = (int)totalDuration.toHours();
 
